@@ -38,6 +38,12 @@ PrefabInstance:
       propertyPath: Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6700854046942362498, guid: 6c583d7ea100e95479a286b7b69f18c2,
+        type: 3}
+      propertyPath: blowUpVFX
+      value: 
+      objectReference: {fileID: 4475210002142994745, guid: db8c78791daaa3d4faffadaaebc42cc6,
+        type: 3}
     - target: {fileID: 8445867377663762002, guid: 6c583d7ea100e95479a286b7b69f18c2,
         type: 3}
       propertyPath: m_Name
