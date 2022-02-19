@@ -8,6 +8,7 @@ public class Gem : MonoBehaviour
     public bool isMatched;
     public enum GemType { Air, Water, Ice, Fire, Forest, Flash, Earth }
     public GemType Type;
+    public GameObject blowUpVFX;
 
     private Vector2Int originalPosition;
     private Vector2 firstClickPosition;

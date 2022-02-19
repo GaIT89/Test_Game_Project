@@ -112,6 +112,7 @@ public class Board : MonoBehaviour
         {
             if (allGemsOnBoard[pos.x, pos.y].isMatched)
             {
+                Instantiate(allGemsOnBoard[pos.x, pos.y].blowUpVFX, new Vector2(pos.x, pos.y), Quaternion.identity);
                 Destroy(allGemsOnBoard[pos.x, pos.y].gameObject);
                 allGemsOnBoard[pos.x, pos.y] = null;
                 playerScore++;
